@@ -22,4 +22,4 @@ def main(a,b,c):
            
     return answer
 
-print(main(88,59,2))
+print(main(88,59,200))
