@@ -1,7 +1,6 @@
 def main(n):
     answer = 0
 
-
     """
     Find the largest digit of the five-digit number.
     Args:
@@ -33,6 +32,12 @@ def main(n):
     elif n3 > n1 and n3 > n2 and n3 > n4 and n3 > n5:
         answer += n3
 
+    elif n4 > n2 and n4 > n3 and n4 > n5 and n5 > n1:
+        answer += n5
+
+    elif n5 > n2 and n5 > n3 and n5 > n4 and n5 > n1:
+        answer += n5
+
     return answer
 
-print(main(56843))
+print(main(96843))
