@@ -10,24 +10,15 @@ def main(a,b,c):
     """
 
     answer = 0
-    if (a > b and a > c) and (b > c):
+    if ((a > b and a > c) and (b > c)) or ((c > a and c > b) and (a < b)):
         answer += b
     
-    elif(a > b and a > c) and (b < c):
+    elif((a > b and a > c) and (b < c)) or ((b > a and b > c) and (a < c)):
         answer += c
     
-    elif (b > a and b > c) and( a > c):
+    elif ((b > a and b > c) and( a > c)) or ((c > a and c > b) and (a > b)):
         answer += a
-    
-    elif (b > a and b > c) and (a < c):
-        answer += c
-    
-    elif (c > a and c > b) and (a > b) :
-        answer += a
-
-    elif (c > a and c > b) and (a < b) :
-        answer += b
-        
+           
     return answer
 
-print(main(8,-10,-9))
+print(main(88,59,2))
