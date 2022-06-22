@@ -15,7 +15,6 @@ def main(temp):
     Returns:
         str: return answer.
     """
-
     if temp < 0:
         answer += "Freezing"
 
