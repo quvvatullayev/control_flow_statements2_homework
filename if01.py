@@ -8,4 +8,14 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    max = 0
+    if (a > b) or (a > c):
+        max = a
+
+    if (b > a) or (b > c):
+        max = b
+    
+    if (c > a) or (c > b):
+        max = c
+        
+    return max
