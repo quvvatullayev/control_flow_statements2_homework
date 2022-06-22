@@ -17,7 +17,7 @@ def main(temp):
     """
     if temp < 0:
         answer += "Freezing"
-        
+
     elif 1 <= temp <= 10:
         answer += "Very Cold"
 
@@ -35,4 +35,4 @@ def main(temp):
 
     return answer
 
-print(main(32))
+print(main(-87))
