@@ -10,7 +10,7 @@ def main(a,b,c):
     """
 
     answer = 0
-    if a > b and a > b and b > c:
+    if a > b and a > c and b > c:
         answer += b
     
     elif b > a and b > c and a > c:
