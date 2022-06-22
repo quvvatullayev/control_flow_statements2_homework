@@ -8,34 +8,34 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    max = 0
+    answer = 0
     if (a > b) or (a > c):
-        max = a
+        answer = a
 
     if ((a > b) or (c > a)) and (c > b):
-        max = c
+        answer = c
     
     if ((b > a) or (a > c)) and (b > c):
-        max = b
+        answer = b
 
     if (b > a) or (b > c):
-        max = b
+        answer = b
 
     if ((b > a) or (c > b)) and (c > a):
-        max = c
+        answer = c
     
     if ((a > b) or (b > c)) and (a > c):
-        max = a
+        answer = a
     
     if (c > a) or (c > b):
-        max = c
+        answer = c
 
     if ((c > a) or (b > c)) and (b > a):
-        max = b
+        answer = b
 
     if ((a > c) or (c > b)) and (a > b):
-        max = a
+        answer = a
 
-    return max
+    return answer
 
 print(main(8,-61,7))
