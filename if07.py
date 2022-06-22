@@ -31,7 +31,6 @@ def main(temp):
     elif temp > 40:
         answer = "Very Hot"
 
-    
     return answer
 
-print(main(5))
+print(main(52))
