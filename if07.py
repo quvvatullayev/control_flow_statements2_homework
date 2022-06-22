@@ -36,4 +36,4 @@ def main(temp):
 
     return answer
 
-print(main(12))
+print(main(32))
