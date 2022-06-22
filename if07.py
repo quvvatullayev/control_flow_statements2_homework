@@ -17,7 +17,7 @@ def main(temp):
     """
     if temp < 0:
         answer += "Freezing"
-
+        
     elif temp >= 1 and temp <= 10:
         answer += "Freezing"
 
