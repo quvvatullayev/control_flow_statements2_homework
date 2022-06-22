@@ -12,28 +12,28 @@ def main(a,b,c):
     if (a > b) or (a > c):
         answer += a
 
-    if ((a > b) or (c > a)) and (c > b):
+    elif ((a > b) or (c > a)) and (c > b):
         answer += c
     
-    if ((b > a) or (a > c)) and (b > c):
+    elif ((b > a) or (a > c)) and (b > c):
         answer += b
 
-    if (b > a) or (b > c):
+    elif (b > a) or (b > c):
         answer += b
 
-    if ((b > a) or (c > b)) and (c > a):
+    elif ((b > a) or (c > b)) and (c > a):
         answer += c
     
-    if ((a > b) or (b > c)) and (a > c):
+    elif ((a > b) or (b > c)) and (a > c):
         answer += a
     
-    if (c > a) or (c > b):
+    elif (c > a) or (c > b):
         answer += c
 
-    if ((c > a) or (b > c)) and (b > a):
+    elif ((c > a) or (b > c)) and (b > a):
         answer += b
 
-    if ((a > c) or (c > b)) and (a > b):
+    elif ((a > c) or (c > b)) and (a > b):
         answer += a
 
     return answer
