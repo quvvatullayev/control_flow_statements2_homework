@@ -11,14 +11,14 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if ((a > b and a > c) and (b > c)) or ((c > a and c > b) and (a < b)):
-        answer += b
+    if (b > a and a > c) or (b < a and c > a):
+        answer += a
     
-    elif((a > b and a > c) and (b < c)) or ((b > a and b > c) and (a < c)):
+    elif (b > c and c > a) or (b < c and a > c):
         answer += c
     
-    elif ((b > a and b > c) and( a > c)) or ((c > a and c > b) and (a > b)):
-        answer += a
+    else:
+        answer += b
            
     return answer
 
