@@ -12,11 +12,11 @@ def main(a,b,c):
     if (b > a and a > c) or (b < a and a < c):
         answer += a
     
-    elif (b > c and c > a) or (b < c and  c < a):
-        answer += c
+    elif (a > b and b > c) or (a < b and  b < c):
+        answer += b
     
     else:
-        answer += b
+        answer += c
            
     return answer
 print(main(88,59,200))
