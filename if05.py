@@ -1,14 +1,14 @@
 def main(n):
+    answer = 0
+
+
     """
     Find the largest digit of the five-digit number.
     Args:
         n: Five-digit number.
-    Returns:
+    Returns:      
         int: return answer.
     """
-
-    answer = 0
-
     n1 = n % 10
     n //= 10
 
