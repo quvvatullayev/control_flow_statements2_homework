@@ -20,3 +20,5 @@ def main(a,b,c):
         answer += c
         
     return answer
+
+print(main(8,6,9))
