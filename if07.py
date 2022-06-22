@@ -1,4 +1,6 @@
 def main(temp):
+
+    answer = ""
     """
     Display the message according to the following temperature conditions given to you in Celsius:
     Use the elif statments.
@@ -13,7 +15,6 @@ def main(temp):
     Returns:
         str: return answer.
     """
-    answer = ""
 
     if temp < 0:
         answer += "Freezing"
