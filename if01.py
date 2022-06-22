@@ -10,31 +10,31 @@ def main(a,b,c):
     """
     answer = 0
     if (a > b) or (a > c):
-        answer = a
+        answer += a
 
     if ((a > b) or (c > a)) and (c > b):
-        answer = c
+        answer += c
     
     if ((b > a) or (a > c)) and (b > c):
-        answer = b
+        answer += b
 
     if (b > a) or (b > c):
-        answer = b
+        answer += b
 
     if ((b > a) or (c > b)) and (c > a):
-        answer = c
+        answer += c
     
     if ((a > b) or (b > c)) and (a > c):
-        answer = a
+        answer += a
     
     if (c > a) or (c > b):
-        answer = c
+        answer += c
 
     if ((c > a) or (b > c)) and (b > a):
-        answer = b
+        answer += b
 
     if ((a > c) or (c > b)) and (a > b):
-        answer = a
+        answer += a
 
     return answer
 
