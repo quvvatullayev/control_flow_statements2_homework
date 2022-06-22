@@ -21,5 +21,4 @@ def main(a,b,c):
         answer += b
            
     return answer
-
 print(main(88,59,200))
